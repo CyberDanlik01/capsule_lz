@@ -8,7 +8,6 @@ def main():
     print(f"Наибольшее из чисел 33 и 69: {max_2(33, 69)}")
     print("Логи записаны в соответствующие файлы")
     print("Нарисуем статистику STEAM...")
-
     SteamStats('steam_players.csv').show_stats()
 
 if __name__ == "__main__":
